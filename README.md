@@ -1,8 +1,8 @@
 # Version management package for Laravel
 
-[![Downloads](https://poser.pugx.org/akaunting/laravel-version/d/total.svg)](https://github.com/akaunting/laravel-version)
+[![Downloads](https://poser.pugx.org/jesprna/jaysfi-version/d/total.svg)](https://github.com/jesprna/jaysfi-version)
 [![StyleCI](https://styleci.io/repos/101269981/shield?style=flat&branch=master)](https://styleci.io/repos/101269981)
-[![License](https://poser.pugx.org/akaunting/laravel-version/license.svg)](LICENSE.md)
+[![License](https://poser.pugx.org/jesprna/jaysfi-version/license.svg)](LICENSE.md)
 
 This is a [SemVer](http://semver.org) compatible version management package for any software built on Laravel.
 
@@ -13,7 +13,7 @@ This is a [SemVer](http://semver.org) compatible version management package for 
 Run the following command:
 
 ```bash
-composer require akaunting/laravel-version
+composer require jesprna/jaysfi-version
 ```
 
 ### 2. Register (for Laravel < 5.5)
@@ -21,13 +21,13 @@ composer require akaunting/laravel-version
 Register the service provider in `config/app.php`
 
 ```php
-Akaunting\Version\Provider::class,
+Jesprna\Version\Provider::class,
 ```
 
 Add alias if you want to use the facade.
 
 ```php
-'Version' => Akaunting\Version\Facade::class,
+'Version' => Jesprna\Version\Facade::class,
 ```
 
 ### 3. Publish
@@ -59,10 +59,11 @@ Pull requests are more than welcome. You must follow the PSR coding standards.
 
 ## Security
 
-If you discover any security related issues, please email security@akaunting.com instead of using the issue tracker.
+If you discover any security related issues, please email security@jesprna.com instead of using the issue tracker.
 
 ## Credits
 
+- [Jays](https://github.com/jesprna)
 - [Denis Duliçi](https://github.com/denisdulici)
 - [All Contributors](../../contributors)
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Akaunting\Version;
+namespace Jesprna\Version;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;

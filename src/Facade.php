@@ -1,6 +1,6 @@
 <?php
 
-namespace Akaunting\Version;
+namespace Jesprna\Version;
 
 use Illuminate\Support\Facades\Facade as BaseFacade;
 
